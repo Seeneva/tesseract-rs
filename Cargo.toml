@@ -1,0 +1,13 @@
+[package]
+name = "tesseract-rs"
+version = "0.1.0"
+authors = ["Sergei Solodovnikov <sergei@isolo.me>"]
+edition = "2018"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1.0"
+tesseract-sys = { git = "https://github.com/Seeneva/tesseract-sys.git", branch = "main" }
+leptonica-rs = { git = "https://github.com/Seeneva/leptonica-rs.git", branch = "main" }
